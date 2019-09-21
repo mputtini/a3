@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @cadastro.nome %>
+</p>
+
+<p>
+  <strong>Endereco:</strong>
+  <%= @cadastro.endereco %>
+</p>
+
+<%= link_to 'Edit', edit_cadastro_path(@cadastro) %> |
+<%= link_to 'Back', cadastros_path %>
